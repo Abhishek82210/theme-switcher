@@ -6,7 +6,21 @@ A simple React app to toggle between **Light Mode** and **Dark Mode** using **Co
 ---
 
 ## 📂 Project Structure  
-/theme-switcher │── /src │ │── /components │ │ ├── Navbar.jsx │ │ ├── Content.jsx │ │── /context │ │ ├── ThemeContext.jsx │ │── App.jsx │ │── main.jsx │── /public │── package.json │── vite.config.js │── .gitignore │── README.md
+/theme-switcher
+│── /src
+│   │── /components
+│   │   ├── Navbar.jsx
+│   │   ├── Content.jsx
+│   │── /context
+│   │   ├── ThemeContext.jsx
+│   │── App.jsx
+│   │── main.jsx
+│── /public
+│── package.json
+│── vite.config.js
+│── .gitignore
+│── README.md
+
 
 ---
 

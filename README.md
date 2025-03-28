@@ -36,20 +36,23 @@ Build Tool: Vite
 │── vite.config.js
 │── README.md
 
+
 🚀 How to Run the Project
 1️⃣ Clone the Repository
-sh
-Copy
-Edit
+
 git clone https://github.com/your-username/theme-switcher.git
 cd theme-switcher
+
+
 2️⃣ Install Dependencies
 
 npm install
 
+
 3️⃣ Start the Development Server
 
 npm run dev
+
 
 The app will run at http://localhost:5173/ (default Vite port).
 

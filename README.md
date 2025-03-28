@@ -1,4 +1,5 @@
 Theme Switcher using Context API (React + Vite)
+
 📌 Overview
 
 This is a basic React project demonstrating how to use the Context API for managing global state. The app allows users to toggle between Light Mode and Dark Mode using a global theme context.

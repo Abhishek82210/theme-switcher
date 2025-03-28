@@ -1,64 +1,49 @@
-Theme Switcher using Context API (React + Vite)
+# 🚀 Theme Switcher - React Context API Project  
 
-📌 Overview
-
-This is a basic React project demonstrating how to use the Context API for managing global state. The app allows users to toggle between Light Mode and Dark Mode using a global theme context.
-
-⚙️ Features
-✅ Uses React Context API for state management
-✅ Implements Theme Switching (Light/Dark Mode)
-✅ Built with Vite for fast development
-✅ No Redux or external state management libraries
-
-🛠️ Tech Stack
-Frontend: React.js (with Vite)
-
-State Management: Context API
-
-Styling: Inline CSS
-
-Build Tool: Vite
-
-📂 Project Structure
-
-/theme-switcher
-│── /src
-│   ├── /components
-│   │   ├── Navbar.jsx
-│   │   ├── Content.jsx
-│   ├── /context
-│   │   ├── ThemeContext.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│── /public
-│── index.html
-│── package.json
-│── vite.config.js
-│── README.md
+A simple React app to toggle between **Light Mode** and **Dark Mode** using **Context API**.
 
 
-🚀 How to Run the Project
-1️⃣ Clone the Repository
+---
 
-git clone https://github.com/your-username/theme-switcher.git
-cd theme-switcher
+## 📂 Project Structure  
+/theme-switcher │── /src │ │── /components │ │ ├── Navbar.jsx │ │ ├── Content.jsx │ │── /context │ │ ├── ThemeContext.jsx │ │── App.jsx │ │── main.jsx │── /public │── package.json │── vite.config.js │── .gitignore │── README.md
+
+---
+
+## 🚀 Features  
+✅ Light/Dark Theme Toggle  
+✅ Uses **React Context API** for global state management  
+✅ Styled using inline CSS  
+✅ Built with **Vite + React**  
+
+---
+
+## 🛠️ Technologies Used  
+- ⚛️ React.js  
+- 🌐 Vite (Fast Build Tool)  
+- 🎨 CSS  
+
+---
+
+## ⚡ Installation & Setup  
+
+### 1️⃣ Clone the repository  
+
+git clone https://github.com/your-username/theme-switcher.git cd theme-switcher
 
 
-2️⃣ Install Dependencies
+### 2️⃣ Install dependencies  
 
-npm install
+### 3️⃣ Start the development server  
 
+Now, open **`http://localhost:5173/`** in your browser! 🚀  
 
-3️⃣ Start the Development Server
+---
 
-npm run dev
+## 🛠 How It Works?  
+1. **`ThemeContext.jsx`** manages the theme state (`light` or `dark`).  
+2. **`Navbar.jsx`** contains a button to toggle the theme.  
+3. **`Content.jsx`** applies the theme based on `ThemeContext`.  
 
-
-The app will run at http://localhost:5173/ (default Vite port).
-
-📜 Usage Instructions
-The Navbar contains a toggle button to switch between Light Mode and Dark Mode.
-
-Clicking the button updates the global theme state using Context API.
-
-The Content component dynamically changes the background and text color based on the selected theme.
+---
+  

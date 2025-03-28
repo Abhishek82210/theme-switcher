@@ -1,0 +1,30 @@
+# 🚀 Ignore node_modules (dependencies)
+node_modules/
+ 
+# 🚀 Ignore build files
+dist/
+
+# 🚀 Ignore system files (Mac & Windows)
+.DS_Store
+Thumbs.db
+
+# 🚀 Ignore logs and cache
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+.vscode/
+.idea/
+.cache/
+*.log
+
+# 🚀 Ignore environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# 🚀 Ignore temporary files
+*.bak
+*.swp
+*.swo
